@@ -6,6 +6,6 @@ Nos ponemos en esucha con burp y hacemos peticion post con unas credenciales.
 
 Lo metemos al intruder y selecionamos ataque sniper, de payload metemos la worlist de usuarios.
 
-Después de eso añadimos en el campo username como variable para que el payload ataque a eso, al finalizar nos fijamos en el lenght que es la respuesta los caracteres y el que esté cambiado será el username correcto.
+Después añadimos a la derecha le damos a grep Extract y ponemos el msj de invalid username and password 
 
 Podemos hacer lo mismo para el password
